@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* used padding just to move things to where I want it to be, declared the font and color of the fonts */
+h1 {
+  padding: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: aliceblue;
+  margin-top: 0px;
+}
+/* h2 will have a background of a mint green blue color which I think looks cool in the heading and throughout the page */
+h2{
+  font-family: Tahoma, sans-serif;
+  padding: -20pxpx;
+  color: aliceblue;
+  margin-bottom: 50px;
+  margin-top: -22px;
+  background-color: #8bbF9F;
+  text-align: center;
+}
+/* padding horizontal and vertical just to move things to where I want it to be */
+article{
+  padding: 17px 402px;
+  
+}
+/* made the background color of the header (top area) a cobalt grey blue */
+header {
+  margin-top: 0px;
+  background-color: #586F7C;
+  height: 140px;
+  text-align: center;
+}
+
+/* this makes everything else lilac purple */
+body{
+  background-color: #D8B4E2;
+}
+
+.wrapper {
+	width: 400px;
+	margin: auto;	
+}
+
+p{
+   text-align: center;
+  font-family: Tahoma, sans-serif;
+  background-color:  #8bbF9F;
+  color: white;
+}
+
+ul{
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  background-color:  #DBA151;
+  color: aliceblue;
+  font-size: 20px;
+  padding: 17px 402px;
+}
+
+ol{
+  text-align: left;
+  background-color: #8bbF9F ;
+  
+}
+
+li{
+  text-align: left;
+  
+}
+
+h3{
+   text-align: center;
+  font-family: Tahoma, sans-serif;
+  background-color:  #8bbF9F;
+  color: aliceblue;
+  font-size: 20px;
+  border: 20px;
+}
+
+article{
+  text-align: left;
+  font-family: Tahoma, sans-serif;
+  background-color:  #8bbF9F;
+  color: white;
+}
+
+/* this is just used for spacing */
+.gap-sm {
+   background-color: #D8B4E2;
+    height: 50px;
+    width: auto;
+}
+/* targets h3 in the footer to make the background a certain color */
+footer h3{
+  background-color: #B7C0EE;
+}
+/* targets the unordered list to change background color and font size of the content */
+footer ul{
+  background-color: #B7C0EE;
+  font-size: 18px;
+}
+/* used to center the image */
+.center {
+  display: block;
+  margin-left: -95px;
+  margin-right: auto;
+  }
+
+/* pseudo-classes changing the colors of the link depending on its state */
+a:link    { color: #586F7C;  }
+a:visited { color: #629375;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
+
+/* parameters of the img */
+img{
+  width: 600px;
+  height: 600px;
+}
